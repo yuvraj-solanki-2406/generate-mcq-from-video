@@ -4,9 +4,12 @@ from io import BytesIO
 import tempfile
 import speech_recognition as sr
 import google.generativeai as genai
+from dotenv import load_dotenv
+import os
 
-GOOGLE_API = 'AIzaSyCdP-mKZjOqClld2oMq_LA3oIFIiOeOi6U'
-genai.configure(api_key=GOOGLE_API)
+load_dotenv()
+
+genai.configure(api_key=os.getenv('GOOGLE_API'))
 
 
 # Generate questions from Gemini
