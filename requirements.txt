@@ -3,4 +3,3 @@ google-generativeai
 python-dotenv
 SpeechRecognition
 moviepy
-tempfile
