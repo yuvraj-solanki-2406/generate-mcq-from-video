@@ -5,7 +5,7 @@ import tempfile
 import speech_recognition as sr
 import google.generativeai as genai
 
-GOOGLE_API = # 'your GOOGLE Gemini API key'
+GOOGLE_API = 'AIzaSyCdP-mKZjOqClld2oMq_LA3oIFIiOeOi6U'
 genai.configure(api_key=GOOGLE_API)
 
 
