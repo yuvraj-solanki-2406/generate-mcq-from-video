@@ -21,6 +21,7 @@ def generate_questions(txt):
 
 st.title("Generate Question from Video")
 st.text("Upload a Video to generate question from that Video")
+st.text("Upload a Video with English Audio only")
 
 num_questions = st.number_input(label="Enter number of Question to generate",
                                 max_value=8, min_value=1, value=3)
